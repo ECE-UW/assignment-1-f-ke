@@ -1,3 +1,4 @@
+
 "regrade"
 
 import re
@@ -152,8 +153,9 @@ def main():
             print "Error: empty input!"
         elif command[0] == 'g':
             Graph()
+            break
         elif command[0] == 'a':
-            patterna = r'a\s* \"(.+?)\" (( ?\(\-?\d+,\-?\d+\))+)\s*$'
+            patterna = r'a\s* \"(.+?)\"\s*(( ?\(\-?\d+,\-?\d+\))+)\s*$'
             amatch = re.match(patterna, command)
             if amatch == None:
                 print "Error: invalid input!"
@@ -164,7 +166,7 @@ def main():
                 else:
                     print "Error: street name already exists!"
         elif command[0] == 'c':
-            patternc = r'c\s* \"(.+?)\" (( ?\(\-?\d+,\-?\d+\))+)\s*$'
+            patternc = r'c\s* \"(.+?)\"\s* (( ?\(\-?\d+,\-?\d+\))+)\s*$'
             cmatch = re.match(patternc, command)
             if cmatch == None:
                 print "Error: invalid input! Please check again!"
@@ -280,18 +282,4 @@ def Graph():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
