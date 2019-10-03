@@ -1,4 +1,4 @@
-"regrage"
+"regrade"
 
 import re
 class Point:
