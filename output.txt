@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Marking #13: StudentInfo(repo='assignment-1-f-ke', first='keyi', last='Fan', watiam='k27fan', studentid=20828108, email='1955334800@qq.com')
+=======
+Marking #28: StudentInfo(repo='assignment-1-f-ke', first='keyi', last='Fan', watiam='k27fan', studentid=20828108, email='1955334800@qq.com')
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 Mark = 0
 
 Running test 0:	 +20
@@ -14,8 +18,13 @@ b this is bad input
 
 Output:
 ----
+<<<<<<< HEAD
 Error: invalid input!
 
+=======
+please put your command here:informal input
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -24,7 +33,11 @@ Error: Incorrect input format
 
 ----
 
+<<<<<<< HEAD
 Marks: +5	(25 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test02.in
@@ -37,8 +50,18 @@ a   "up and across st" (0,0)(10,10)
 
 Output:
 ----
+<<<<<<< HEAD
 Error: street name already exists!
 
+=======
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a   ', 'up and across st', ' (0,0)(10,10)']
+informal input
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a   ', 'up and across st', ' (0,0)(10,10)']
+informal input
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -47,7 +70,11 @@ Error: street currently exists.
 
 ----
 
+<<<<<<< HEAD
 Marks: +5	(30 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test03.in
@@ -60,8 +87,18 @@ c "down and across st" (0,10)(10,0)
 
 Output:
 ----
+<<<<<<< HEAD
 Error: 'c' specified for a street that does not exist!
 
+=======
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a   ', 'up and across st', ' (0,0)(10,10)']
+informal input
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0), (0.0, 10.0), (10.0, 0.0)]
+command_list: ['c ', 'down and across st', ' (0,10)(10,0)']
+thie street is not existed
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -70,7 +107,11 @@ Error: 'c' or 'r' specified for a street that does not exist.
 
 ----
 
+<<<<<<< HEAD
 Marks: +5	(35 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test04.in
@@ -83,8 +124,18 @@ r "down and across st" (0,10) (10,0) )
 
 Output:
 ----
+<<<<<<< HEAD
 Error: 'r' specified for a street that does not exist!
 
+=======
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a   ', 'up and across st', ' (0,0)(10,10)']
+informal input
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0), (0.0, 10.0), (10.0, 0.0)]
+command_list: ['r ', 'down and across st', ' (0,10)(10,0) )']
+this street has been removed before
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -93,7 +144,11 @@ Error: Incorrect input format
 
 ----
 
+<<<<<<< HEAD
 Marks: +5	(40 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test05.in
@@ -105,8 +160,15 @@ a   "up and across st" ( 0 , 0 )(10,10
 
 Output:
 ----
+<<<<<<< HEAD
 Error: invalid input!
 
+=======
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a   ', 'up and across st', ' ( 0 , 0 )(10,10']
+informal input
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -115,7 +177,11 @@ Error: Incorrect input format
 
 ----
 
+<<<<<<< HEAD
 Marks: +5	(45 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test06.in
@@ -132,11 +198,24 @@ g
 
 Output:
 ----
+<<<<<<< HEAD
 V{
 }
 E={
 }
 
+=======
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0)]
+command_list: ['a ', 'Weber Street', ' (2,-1)(2,2)(5,5)(5,6)(3,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (4.0, 2.0), (4.0, 8.0)]
+command_list: ['a ', 'King Street S', ' (4,2)(4,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (4.0, 2.0), (4.0, 8.0), (1.0, 4.0), (5.0, 8.0)]
+command_list: ['a ', 'Davenport Road', ' (1,4)(5,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (4.0, 2.0), (4.0, 8.0), (1.0, 4.0), (5.0, 8.0), (2.0, 1.0)]
+command_list: ['c ', 'Weber Street', ' (2,1)(2,2)']
+thie street is not existed
+please put your command here:
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 ----
 
 Expected result:
@@ -150,7 +229,11 @@ E = {
 Could not process answer:	Could not parse output
 Comparison result:	RHS is None
 
+<<<<<<< HEAD
 Marks: +0	(45 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test07.in
@@ -164,6 +247,7 @@ g
 
 Output:
 ----
+<<<<<<< HEAD
 V{
  0: (0.00,0.00)
  1: (10.00,10.00)
@@ -175,6 +259,24 @@ E={
 <2 4>,
 <4 3>,
 <0 4>,
+=======
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0)]
+command_list: ['a ', 'up and across st', ' (0,0)(10,10)']
+please put your command here:vertex_id: [(0.0, 0.0), (10.0, 10.0), (0.0, 10.0), (10.0, 0.0)]
+command_list: ['a ', 'down and across st', ' (0,10)(10,0)']
+please put your command here:(0.0,10.0)->(10.0,0.0) (0.0,0.0)->(10.0,10.0)
+V{
+ 0: (0.0, 0.0)
+ 1: (10.0, 10.0)
+ 2: (0.0, 10.0)
+ 3: (10.0, 0.0)
+ 4: (5.0, 5.0)
+}
+E={
+<2 4>
+<4 3>
+<0 4>
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 <4 1>
 }
 
@@ -201,7 +303,11 @@ E = {
 Could not process answer:	Could not parse output
 Comparison result:	RHS is None
 
+<<<<<<< HEAD
 Marks: +0	(45 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test08.in
@@ -216,6 +322,7 @@ g
 
 Output:
 ----
+<<<<<<< HEAD
 V{
  1: (2.00,2.00)
  2: (5.00,5.00)
@@ -243,6 +350,52 @@ E={
 <9 12>,
 <12 10>,
 <10 6>
+=======
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0)]
+command_list: ['a ', 'Weber Street', ' (2,-1)(2,2)(5,5)(5,6)(3,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (3.0, 2.0), (4.0, 8.0)]
+command_list: ['a ', 'King Street S', ' (3,2)(4,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (3.0, 2.0), (4.0, 8.0), (0.0, 0.0), (5.0, 8.0)]
+command_list: ['a ', 'Davenport Road', ' (0,0)(5,8)']
+please put your command here:(2.0,-1.0)->(2.0,2.0) (3.0,2.0)->(4.0,8.0)
+(2.0,2.0)->(5.0,5.0) (3.0,2.0)->(4.0,8.0)
+(5.0,5.0)->(5.0,6.0) (3.0,2.0)->(4.0,8.0)
+(5.0,6.0)->(3.0,8.0) (3.0,2.0)->(4.0,8.0)
+(2.0,-1.0)->(2.0,2.0) (0.0,0.0)->(5.0,8.0)
+(2.0,2.0)->(5.0,5.0) (0.0,0.0)->(5.0,8.0)
+(5.0,5.0)->(5.0,6.0) (0.0,0.0)->(5.0,8.0)
+(5.0,6.0)->(3.0,8.0) (0.0,0.0)->(5.0,8.0)
+(3.0,2.0)->(4.0,8.0) (0.0,0.0)->(5.0,8.0)
+V{
+ 1: (2.0, 2.0)
+ 2: (5.0, 5.0)
+ 3: (5.0, 6.0)
+ 4: (3.0, 8.0)
+ 5: (3.0, 2.0)
+ 6: (4.0, 8.0)
+ 7: (0.0, 0.0)
+ 8: (5.0, 8.0)
+ 9: (3.2, 3.2)
+ 10: (3.857142857142857, 7.142857142857143)
+ 11: (4.230769230769231, 6.769230769230769)
+ 12: (3.6363636363636362, 5.818181818181818)
+}
+E={
+<1 9>
+<9 2>
+<3 10>
+<10 4>
+<3 11>
+<11 4>
+<5 12>
+<12 6>
+<5 9>
+<9 10>
+<10 6>
+<7 12>
+<12 11>
+<11 8>
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 }
 
 ----
@@ -282,7 +435,11 @@ E = {
 Could not process answer:	Could not parse output
 Comparison result:	RHS is None
 
+<<<<<<< HEAD
 Marks: +0	(45 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 --------------
 Running test: tests/test09.in
@@ -297,6 +454,7 @@ g
 
 Output:
 ----
+<<<<<<< HEAD
 V{
  8: (5.00,0.00)
  5: (0.00,0.00)
@@ -307,6 +465,35 @@ E={
 <5 7>,
 <7 6>,
 <6 8>
+=======
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0)]
+command_list: ['a ', 'Amphitheatre Prkw', ' (2,-1)(2,2)(5,5)(5,6)(3,8)']
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (0.0, 0.0), (4.0, 0.0)]
+command_list: ['c ', 'amphitheatre PRKW', ' (0,0)(4,0)']
+thie street is not existed
+please put your command here:vertex_id: [(2.0, -1.0), (2.0, 2.0), (5.0, 5.0), (5.0, 6.0), (3.0, 8.0), (0.0, 0.0), (4.0, 0.0), (3.0, 0.0), (5.0, 0.0)]
+command_list: ['a ', 'One Infinite Loop', ' (3,0)(5,0)']
+please put your command here:(2.0,-1.0)->(2.0,2.0) (3.0,0.0)->(5.0,0.0)
+(2.0,2.0)->(5.0,5.0) (3.0,0.0)->(5.0,0.0)
+(5.0,5.0)->(5.0,6.0) (3.0,0.0)->(5.0,0.0)
+(5.0,6.0)->(3.0,8.0) (3.0,0.0)->(5.0,0.0)
+V{
+ 2: (5.0, 5.0)
+ 3: (5.0, 6.0)
+ 4: (3.0, 8.0)
+ 7: (3.0, 0.0)
+ 8: (5.0, -0.0)
+ 9: (11.0, -0.0)
+}
+E={
+<2 8>
+<8 3>
+<3 9>
+<9 4>
+<7 8>
+<8 8>
+<8 9>
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 }
 
 ----
@@ -329,11 +516,20 @@ E = {
 Could not process answer:	Could not parse output
 Comparison result:	RHS is None
 
+<<<<<<< HEAD
 Marks: +0	(45 total)
+=======
+Marks: +0	(20 total)
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
 
 
 --------------
 
 Finished marking
+<<<<<<< HEAD
 Total mark: 45 / 100
 Final mark: 45
+=======
+Total mark: 20 / 100
+Final mark: 20
+>>>>>>> f1e73e9c4258356dc40310f953972a1e12f5644a
